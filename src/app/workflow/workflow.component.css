@@ -1,0 +1,68 @@
+.workflow-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 6rem;
+}
+.workflow-title{
+    font-family: "Bai Jamjuree", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 36px;
+    letter-spacing: -0.59px;
+    color: #4c545c;
+    text-align: center;
+  }
+  .workflow-description{
+    font-family: "Bai Jamjuree", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #9EABB2;
+    line-height: 30px;
+    letter-spacing: 0.14px;
+    text-align: center;
+  }
+  .workflow-details{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    font-family: "Bai Jamjuree", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #9EABB2;
+    letter-spacing: 0.12px;
+    line-height: 30px;
+    font-size: 16px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .subheader{
+    font-family: "Bai Jamjuree", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+    letter-spacing: -0.39px;
+    color: #4c545c;
+  }
+  .blacklists, .text-snippets,.preview{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    
+  }
+  .sponsors-logos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 50px;
+    gap: 10rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  @media screen and (max-width:768px ) and (min-width:400px){
+    .blacklists, .text-snippets,.preview{
+        width: 100%;
+    }
+  }
